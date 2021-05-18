@@ -1,0 +1,6 @@
+node_modules/
+docs/.vuepress/.cache
+docs/.git
+yarn.lock
+yarn-error.log
+package-lock.json
