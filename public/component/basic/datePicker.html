@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>日期选择器 y-date-picker | Y UI</title>
+    <meta name="generator" content="VuePress 1.8.2">
+    <link rel="icon" href="/taro/taro-yui-vue/favicon.ico">
+    <meta name="description" content="一个基于 Vue 的 UI 组件库">
+    
+    <link rel="preload" href="/taro/taro-yui-vue/assets/css/0.styles.9754a4ec.css" as="style"><link rel="preload" href="/taro/taro-yui-vue/assets/js/app.074d161d.js" as="script"><link rel="preload" href="/taro/taro-yui-vue/assets/js/2.9116f666.js" as="script"><link rel="preload" href="/taro/taro-yui-vue/assets/js/14.5476299c.js" as="script"><link rel="prefetch" href="/taro/taro-yui-vue/assets/js/10.5bd5888e.js"><link rel="prefetch" href="/taro/taro-yui-vue/assets/js/11.b57720f0.js"><link rel="prefetch" href="/taro/taro-yui-vue/assets/js/12.8c642e74.js"><link rel="prefetch" href="/taro/taro-yui-vue/assets/js/13.fdb43db5.js"><link rel="prefetch" href="/taro/taro-yui-vue/assets/js/15.1f517af1.js"><link rel="prefetch" href="/taro/taro-yui-vue/assets/js/16.f42d9f92.js"><link rel="prefetch" href="/taro/taro-yui-vue/assets/js/17.d0ef6dbb.js"><link rel="prefetch" href="/taro/taro-yui-vue/assets/js/18.0069aa19.js"><link rel="prefetch" href="/taro/taro-yui-vue/assets/js/19.ab41550e.js"><link rel="prefetch" href="/taro/taro-yui-vue/assets/js/20.29a1f932.js"><link rel="prefetch" href="/taro/taro-yui-vue/assets/js/21.c2e78951.js"><link rel="prefetch" href="/taro/taro-yui-vue/assets/js/22.cc906876.js"><link rel="prefetch" href="/taro/taro-yui-vue/assets/js/23.dee953d9.js"><link rel="prefetch" href="/taro/taro-yui-vue/assets/js/24.c5891600.js"><link rel="prefetch" href="/taro/taro-yui-vue/assets/js/25.81f246b1.js"><link rel="prefetch" href="/taro/taro-yui-vue/assets/js/26.adf02d02.js"><link rel="prefetch" href="/taro/taro-yui-vue/assets/js/27.682719af.js"><link rel="prefetch" href="/taro/taro-yui-vue/assets/js/28.333d1014.js"><link rel="prefetch" href="/taro/taro-yui-vue/assets/js/29.df891a7f.js"><link rel="prefetch" href="/taro/taro-yui-vue/assets/js/3.1c5df77b.js"><link rel="prefetch" href="/taro/taro-yui-vue/assets/js/30.a496e33f.js"><link rel="prefetch" href="/taro/taro-yui-vue/assets/js/31.20bf0ebb.js"><link rel="prefetch" href="/taro/taro-yui-vue/assets/js/32.d6d809a9.js"><link rel="prefetch" href="/taro/taro-yui-vue/assets/js/33.0cb7b1ff.js"><link rel="prefetch" href="/taro/taro-yui-vue/assets/js/34.f22bb2cc.js"><link rel="prefetch" href="/taro/taro-yui-vue/assets/js/35.b8cbe2ed.js"><link rel="prefetch" href="/taro/taro-yui-vue/assets/js/36.b2a5fd1b.js"><link rel="prefetch" href="/taro/taro-yui-vue/assets/js/4.98e12d26.js"><link rel="prefetch" href="/taro/taro-yui-vue/assets/js/5.a9326999.js"><link rel="prefetch" href="/taro/taro-yui-vue/assets/js/6.4be26475.js"><link rel="prefetch" href="/taro/taro-yui-vue/assets/js/7.218ee546.js"><link rel="prefetch" href="/taro/taro-yui-vue/assets/js/8.169976a0.js"><link rel="prefetch" href="/taro/taro-yui-vue/assets/js/9.a0cd21e7.js">
+    <link rel="stylesheet" href="/taro/taro-yui-vue/assets/css/0.styles.9754a4ec.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/taro/taro-yui-vue/" class="home-link router-link-active"><!----> <span class="site-name">Y UI</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="组件" class="dropdown-title"><span class="title">组件</span> <span class="arrow down"></span></button> <button type="button" aria-label="组件" class="mobile-dropdown-title"><span class="title">组件</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/taro/taro-yui-vue/component/#basic" class="nav-link">
+  基础
+</a></li><li class="dropdown-item"><!----> <a href="/taro/taro-yui-vue/component/#form" class="nav-link">
+  表单
+</a></li></ul></div></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="组件" class="dropdown-title"><span class="title">组件</span> <span class="arrow down"></span></button> <button type="button" aria-label="组件" class="mobile-dropdown-title"><span class="title">组件</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/taro/taro-yui-vue/component/#basic" class="nav-link">
+  基础
+</a></li><li class="dropdown-item"><!----> <a href="/taro/taro-yui-vue/component/#form" class="nav-link">
+  表单
+</a></li></ul></div></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading open"><span>基础</span> <span class="arrow down"></span></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/taro/taro-yui-vue/component/basic/avatar.html" class="sidebar-link">图像 y-avatar</a></li><li><a href="/taro/taro-yui-vue/component/basic/calendar.html" class="sidebar-link">日历 y-calendar</a></li><li><a href="/taro/taro-yui-vue/component/basic/card.html" class="sidebar-link">卡片 y-card</a></li><li><a href="/taro/taro-yui-vue/component/basic/datePicker.html" aria-current="page" class="active sidebar-link">日期选择器 y-date-picker</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/taro/taro-yui-vue/component/basic/dateTimePicker.html" class="sidebar-link">日期时间选择器 y-date-time-picker</a></li><li><a href="/taro/taro-yui-vue/component/basic/editor.html" class="sidebar-link">编辑器 y-editor</a></li><li><a href="/taro/taro-yui-vue/component/basic/empty.html" class="sidebar-link">无状态 y-empty</a></li><li><a href="/taro/taro-yui-vue/component/basic/fixedButton.html" class="sidebar-link">底部固定按钮 y-fixed-button</a></li><li><a href="/taro/taro-yui-vue/component/basic/floatLayout.html" class="sidebar-link">浮动弹层 y-float-layout</a></li><li><a href="/taro/taro-yui-vue/component/basic/formItemPicker.html" class="sidebar-link">选择器 y-form-item-picker</a></li><li><a href="/taro/taro-yui-vue/component/basic/inputNumber.html" class="sidebar-link">计数器 y-input-number</a></li><li><a href="/taro/taro-yui-vue/component/basic/list.html" class="sidebar-link">列表 y-list</a></li><li><a href="/taro/taro-yui-vue/component/basic/pageContainer.html" class="sidebar-link">页面容器 y-page-container</a></li><li><a href="/taro/taro-yui-vue/component/basic/searchBar.html" class="sidebar-link">搜索栏 y-search-bar</a></li><li><a href="/taro/taro-yui-vue/component/basic/section.html" class="sidebar-link">段落 y-section</a></li><li><a href="/taro/taro-yui-vue/component/basic/steps.html" class="sidebar-link">步骤条 y-steps</a></li><li><a href="/taro/taro-yui-vue/component/basic/table.html" class="sidebar-link">表格 y-table</a></li><li><a href="/taro/taro-yui-vue/component/basic/tabs.html" class="sidebar-link">标签页 y-tabs</a></li><li><a href="/taro/taro-yui-vue/component/basic/textarea.html" class="sidebar-link">多行文本框 y-textarea</a></li><li><a href="/taro/taro-yui-vue/component/basic/timeline.html" class="sidebar-link">时间轴 y-timeline</a></li></ul></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>表单</span> <span class="arrow right"></span></p> <!----></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="日期选择器-y-date-picker"><a href="#日期选择器-y-date-picker" class="header-anchor">#</a> 日期选择器 y-date-picker</h1> <p>用于选择日期</p> <h3 id="组件名称"><a href="#组件名称" class="header-anchor">#</a> 组件名称</h3> <p>y-date-picker</p> <h3 id="依赖组件"><a href="#依赖组件" class="header-anchor">#</a> 依赖组件</h3> <ol><li>y-float-layout</li> <li>y-calendar</li></ol> <h3 id="单选"><a href="#单选" class="header-anchor">#</a> 单选</h3> <!----> <h3 id="多选"><a href="#多选" class="header-anchor">#</a> 多选</h3> <!----> <h3 id="年度-单选"><a href="#年度-单选" class="header-anchor">#</a> 年度-单选</h3> <!----> <h3 id="年度-范围"><a href="#年度-范围" class="header-anchor">#</a> 年度-范围</h3> <!----> <h3 id="年月-单选"><a href="#年月-单选" class="header-anchor">#</a> 年月-单选</h3> <!----> <h3 id="年月-范围"><a href="#年月-范围" class="header-anchor">#</a> 年月-范围</h3> <!----> <h3 id="季度-单选"><a href="#季度-单选" class="header-anchor">#</a> 季度-单选</h3> <!----> <h3 id="季度-范围"><a href="#季度-范围" class="header-anchor">#</a> 季度-范围</h3> <!----> <h3 id="属性"><a href="#属性" class="header-anchor">#</a> 属性</h3> <div class="language-ts extra-class"><pre class="language-ts"><code><span class="token comment">/**
+ * 属性
+ */</span>
+<span class="token keyword">export</span> <span class="token keyword">interface</span> <span class="token class-name">Props</span> <span class="token keyword">extends</span> <span class="token class-name">Record<span class="token operator">&lt;</span><span class="token builtin">string</span><span class="token punctuation">,</span> <span class="token builtin">unknown</span><span class="token operator">&gt;</span></span> <span class="token punctuation">{</span>
+  <span class="token comment">/***
+   * 模式：可编辑edit/可查看view, 默认edit
+   */</span>
+  pattern<span class="token operator">?</span><span class="token operator">:</span> <span class="token builtin">string</span>
+
+  <span class="token comment">/**
+   * 参数
+   */</span>
+  options<span class="token operator">:</span>YDatePickerOptions
+
+  <span class="token comment">/**
+   * 值，必填
+   */</span>
+  modelValue<span class="token operator">:</span> <span class="token builtin">string</span><span class="token operator">|</span><span class="token builtin">string</span><span class="token punctuation">[</span><span class="token punctuation">]</span>
+<span class="token punctuation">}</span>
+
+<span class="token comment">/**
+ * datePicker参数
+ */</span>
+<span class="token keyword">export</span> <span class="token keyword">interface</span> <span class="token class-name">YDatePickerOptions</span> <span class="token punctuation">{</span>
+  <span class="token comment">/**
+   * 日期类型, 默认'date'
+   */</span>
+  <span class="token keyword">type</span><span class="token operator">?</span><span class="token operator">:</span> CalendarTypeEnum
+
+  <span class="token comment">/**
+   *  提示信息，非必填
+   */</span>
+  placeholder<span class="token operator">?</span><span class="token operator">:</span> <span class="token builtin">string</span>
+
+  <span class="token comment">/**
+   * 是否多选，默认：false
+   */</span>
+  isMultiSelect<span class="token operator">?</span><span class="token operator">:</span> <span class="token builtin">boolean</span>
+
+  <span class="token comment">/**
+   * 日期格式化点位符，默认：YYYY-MM-DD
+   */</span>
+  format<span class="token operator">?</span><span class="token operator">:</span><span class="token builtin">string</span>
+
+  <span class="token comment">/**
+   * 是否可清除, 必填项， 默认true
+   */</span>
+  canClear<span class="token operator">?</span><span class="token operator">:</span> <span class="token builtin">boolean</span>
+
+  <span class="token comment">/**
+   * 外部定点id
+   */</span>
+  maskOuterElId<span class="token operator">?</span><span class="token operator">:</span> <span class="token builtin">string</span>
+
+  <span class="token comment">/**
+   * 结束日期
+   */</span>
+  endDate<span class="token operator">?</span><span class="token operator">:</span> <span class="token builtin">string</span>
+
+  <span class="token comment">/**
+   * 最小值
+   */</span>
+  minDate<span class="token operator">?</span><span class="token operator">:</span> <span class="token builtin">string</span>
+
+  <span class="token comment">/**
+   * 最大值
+   */</span>
+  maxDate<span class="token operator">?</span><span class="token operator">:</span> <span class="token builtin">string</span>
+
+  <span class="token comment">/**
+   * 日历快捷键配置
+   */</span>
+  shortcuts<span class="token operator">?</span><span class="token operator">:</span> CalendarBasic<span class="token punctuation">.</span>ShortcutsItem<span class="token punctuation">[</span><span class="token punctuation">]</span>
+<span class="token punctuation">}</span>
+
+</code></pre></div></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/taro/taro-yui-vue/component/basic/card.html" class="prev">
+        卡片 y-card
+      </a></span> <span class="next"><a href="/taro/taro-yui-vue/component/basic/dateTimePicker.html">
+        日期时间选择器 y-date-time-picker
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/taro/taro-yui-vue/assets/js/app.074d161d.js" defer></script><script src="/taro/taro-yui-vue/assets/js/2.9116f666.js" defer></script><script src="/taro/taro-yui-vue/assets/js/14.5476299c.js" defer></script>
+  </body>
+</html>
